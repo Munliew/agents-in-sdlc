@@ -1,6 +1,6 @@
 ---
 title: "Lección 10 - Repaso y pasos siguientes"
-description: "Repasa el flujo de la aplicación, los dos hitos de PR, los ejercicios de lienzo y las prácticas de calidad reutilizables; después, explora otros recursos."
+description: "Repasa el flujo de la aplicación, los dos hitos de solicitudes de incorporación de cambios, los ejercicios de lienzo y las prácticas de calidad reutilizables; después, explora otros recursos."
 authors:
   - geektrainer
 lastUpdated: 2026-09-29

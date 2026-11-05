@@ -1,6 +1,6 @@
 ---
-title: "Lección 6 - Validar la funcionalidad con MCP de Playwright"
-description: "Configura MCP de Playwright mediante Customize y observa el filtrado en un navegador desde el worktree existente de la funcionalidad."
+title: "Lección 6 - Validar la funcionalidad con Model Context Protocol (MCP) de Playwright"
+description: "Configura Model Context Protocol (MCP) de Playwright mediante Customize y observa el filtrado en un navegador desde el worktree existente de la funcionalidad."
 authors:
   - geektrainer
 lastUpdated: 2026-07-09
@@ -22,7 +22,7 @@ Aunque las pruebas unitarias y de un extremo a otro son importantes, validar las
 
 [Model Context Protocol (MCP)][mcp-blog-post] proporciona a los agentes de IA una forma de comunicarse con herramientas y servicios externos. Mediante MCP, los agentes de IA pueden comunicarse con ellos en tiempo real. Esto les permite acceder a información actualizada mediante recursos y realizar acciones en tu nombre mediante herramientas.
 
-Se accede a estas herramientas y recursos a través de un servidor MCP, que actúa como puente entre el agente de IA y las herramientas y servicios externos. El servidor MCP gestiona la comunicación entre el agente de IA y las herramientas externas, como API existentes o herramientas locales, por ejemplo, paquetes NPM. Cada servidor MCP representa un conjunto diferente de herramientas y recursos a los que puede acceder el agente de IA.
+Se accede a estas herramientas y recursos a través de un servidor MCP, que actúa como puente entre el agente de IA y las herramientas y servicios externos. El servidor MCP gestiona la comunicación entre el agente de IA y las herramientas externas, como interfaces de programación de aplicaciones (API) existentes o herramientas locales, por ejemplo, paquetes NPM. Cada servidor MCP representa un conjunto diferente de herramientas y recursos a los que puede acceder el agente de IA.
 
 Dos servidores MCP populares son:
 
@@ -53,7 +53,7 @@ La incidencia y tus decisiones de planificación ya están en el contexto. Deté
 1. Utiliza la indicación siguiente para pedir a Copilot que valide la nueva funcionalidad:
 
     ```plaintext
-    Start the app and use Playwright MCP to check filtering against the issue and our plan. Tell me what works and what doesn't, without making changes. Stop the server you started when you're done.
+    Inicia la aplicación y utiliza Playwright MCP para comprobar el filtrado según la incidencia y el plan. Indícame qué funciona y qué no, sin realizar cambios. Cuando termines, detén el servidor que hayas iniciado.
     ```
 
   > [!NOTE]

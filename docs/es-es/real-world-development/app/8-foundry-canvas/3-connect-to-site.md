@@ -70,7 +70,7 @@ Con el proxy en ejecución, el widget muestra la conversación en el sitio sin e
 10. Pide a Copilot que ejecute las pruebas de extremo a extremo:
 
     ```plaintext
-    Run the end-to-end tests for the Backer Concierge widget in the Tailspin Toys site. Verify its core chat flow, conversation continuity, accessibility, error handling, grounding boundaries, and secure use of the local proxy. Report the results and include evidence for any failures.
+    Ejecuta las pruebas de extremo a extremo del widget Backer Concierge en el sitio Tailspin Toys. Verifica el flujo principal del chat, la continuidad de la conversación, la accesibilidad, el tratamiento de errores, el respeto de los límites de fundamentación en los datos y el uso seguro del proxy local. Informa de los resultados e incluye pruebas de los fallos que encuentres.
     ```
 
 11. Revisa el informe y verifica en el navegador el comportamiento que describe, incluido el uso del teclado y la conversación de dos turnos de las [comprobaciones de aceptación del agente hospedado][agent-checks]. Confirma que las solicitudes del navegador pasan por `/api/concierge` con una referencia opaca, no directamente a Foundry, y que las respuestas no exponen credenciales ni identificadores internos de Foundry. Comprueba que las recomendaciones y las respuestas sobre datos ausentes se mantengan dentro de los límites del catálogo. Resuelve las pruebas fallidas con Copilot, reinicia el servicio local afectado si es necesario y vuelve a ejecutar las pruebas.

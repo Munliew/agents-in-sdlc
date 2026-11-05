@@ -44,7 +44,7 @@ Canvas genera el código, la estructura de carpetas y el archivo `azure.yaml` de
 4. En la versión preliminar de **Create new hosted agents**, introduce:
 
    ```plaintext
-   Scaffold a hosted agent named Backer Concierge in agent/backer-concierge, connected to the tailspin-toys project and the model deployment I just confirmed. Use Microsoft Agent Framework with the Responses API. Ground it in db/catalog.json and ensure it meets the acceptance criteria in this issue. Keep a single azure.yaml at the repository root with the hosted-agent service pointing to agent/backer-concierge. Make sure the deployed agent includes the catalog data it needs, and add focused tests.
+   Genera la estructura de un agente hospedado llamado Backer Concierge en agent/backer-concierge, conectado al proyecto tailspin-toys y al despliegue del modelo que acabo de confirmar. Utiliza Microsoft Agent Framework con la API Responses. Fundamenta las respuestas en db/catalog.json y asegúrate de que cumpla los criterios de aceptación de esta incidencia. Mantén un único azure.yaml en la raíz del repositorio con el servicio del agente hospedado apuntando a agent/backer-concierge. Asegúrate de que el agente desplegado incluya los datos del catálogo que necesita y añade pruebas específicas.
    ```
 
    Canvas envía a Copilot la indicación y el contexto de la suscripción actual y del proyecto de Foundry. Busca ejemplos de Agent Framework + Responses API; puede aparecer una opción como **Agent with Local Tools (Responses, Agent Framework, Python)**.
@@ -127,7 +127,7 @@ Canvas genera el código, la estructura de carpetas y el archivo `azure.yaml` de
 14. Prueba la **continuidad de la conversación** enviando estas indicaciones en la misma conversación:
 
     ```text
-    Show me two highly rated strategy games.
+    Muéstrame dos juegos de estrategia con valoraciones altas.
     ```
 
     ```text
